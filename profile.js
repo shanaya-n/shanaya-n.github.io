@@ -1,5 +1,6 @@
 function fadeIn() {
-  $('img').fadeIn();
+  $('#hamster').fadeIn();
+  $('#dogImage').fadeIn();
 }
 function playMusic() {
 
@@ -11,7 +12,8 @@ function shrinkHeading() {
   $('h1').animate({fontSize:'35px'}, 2000);
 }
 function setupHandlers() {
-  $('img').fadeToggle(1);
+  $('#hamster').fadeToggle(1);
+  $('#dogImage').fadeToggle(1);
   growHeading();
   setTimeout(shrinkHeading, 2500);
   $('.cuteness').on('click', fadeIn);
@@ -19,3 +21,9 @@ function setupHandlers() {
 }
 
 $(document).ready(setupHandlers);
+
+// timeline
+$(".timeline-wrapper .timeline-content-item > span").on("mouseenter mouseleave", function(e){
+  $(".timeline-wrapper .timeline-content-item.active").removeClass("active");
+  $(this).parent().addClass("active");
+});
