@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(#B1F1EA, #C1B1F1);
+}
+a {
+  color: black;
+}
+ul, p {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 2px;
+}
+h2, h3, h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+h1 {
+  text-align: center;
+  background-color: #C1B1F1;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 50px;
+  width: 99%;
+}
+img {
+  margin-top: -19px;
+  margin-bottom: -30px;
+  width: 220;
+  overflow: hidden;
+}
+#map {
+  height: 60%;
+  width: 50%;
+}
+#dog, #dogImage {
+  width: 80px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+#dog {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 5px;
+}
+#hamster {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
