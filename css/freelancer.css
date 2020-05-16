@@ -37,7 +37,7 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '★';
+  content: '◈';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
@@ -49,15 +49,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #6357cc;
+  background-color: #ae53ca;
 }
 
 hr.star-dark {
-  border-color: #6357cc;
+  border-color: #5383ca;
 }
 
 hr.star-dark:after {
-  color: #6357cc;
+  color: #5383ca;
   background-color: #FFFFFF;
 }
 
@@ -111,7 +111,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #6357cc;
+  color: #5383ca;
 }
 
 #mainNav .navbar-nav {
@@ -120,20 +120,20 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #6357cc;
+  color: #5383ca;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #6357cc;
+  color: #5383ca;
   background: #ced4da;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #6357cc;
+  color: #5383ca;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #6357cc;
+  color: #5383ca;
 }
 
 #mainNav .navbar-toggler {
@@ -157,11 +157,11 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #6357cc;
+    color: #5383ca;
     background: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #6357cc;
+    color: #5383ca;
     background: #fff;
   }
   #mainNav.navbar-shrink {
@@ -204,7 +204,7 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
-  background-color: #6357cc;
+  background-color: #5383ca;
 }
 
 .portfolio .portfolio-item {
@@ -319,7 +319,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #6357cc;
+  color: #5383ca;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -338,7 +338,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #6357cc;
+  color: #5383ca;
 }
 
 a:focus, a:hover, a:active {
@@ -350,7 +350,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #6357cc !important;
+  background-color: #5383ca !important;
 }
 
 .bg-secondary {
@@ -358,16 +358,16 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #6357cc !important;
+  color: #5383ca !important;
 }
 
 .text-secondary {
-  color: #6357cc !important;
+  color: #5383ca !important;
 }
 
 .btn-primary {
-  background-color: #6357cc;
-  border-color: #6357cc;
+  background-color: #5383ca;
+  border-color: #5383ca;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
